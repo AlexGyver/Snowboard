@@ -63,8 +63,9 @@ void draw() {
   pg.image(img, 0, 0);
   pg.translate(-width/2, -height/2); 
   pg.endDraw();
-
-  image(img, width/2-img.width/2, height/2-img.height/2);
+  
+  image(pg, 0, 0);
+  //image(img, width/2-img.width/2, height/2-img.height/2);
 
   fill(20);
   noStroke();
